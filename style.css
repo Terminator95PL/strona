@@ -1,0 +1,205 @@
+*{margin: 0; padding: 0;}
+
+body {
+    background: #1f1f1f url(img/background.jpg) no-repeat center top;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: unset;
+}
+
+h1, p {
+    margin: auto;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+   display: flex;
+   padding: 100px 0 100px 0;
+}
+
+
+.header_logo {
+    width: 50%;
+}
+
+.header_banner {
+    text-align: center;
+    width: 50%;
+}
+
+.header_banner img {
+    border: 1px #363636 solid;
+    background: #1f1f1f;
+    box-shadow: 0px 0px 10px 5px #0d0b0c;
+}
+
+.news {
+    background: #c1ffab;
+    border: 1px #5ba043 solid;
+    box-shadow: 0px 0px 10px 3px #0d0b0c;
+    padding: 15px;
+}
+
+.news h1 {
+    color: #3a881e;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.news p {
+    color: #113d02;
+}
+
+main {
+    display: flex;
+    padding: 50px 0 50px 0;
+}
+
+nav {
+    background: #1d1d1d;
+    border: 1px #363636 solid;
+    box-shadow: 0px 0px 10px 5px #0d0b0c;
+    width: 250px;
+}
+
+nav ul {
+    list-style: none;
+    margin: auto;
+    padding: 5px 5px 0 5px;
+}
+
+nav ul li {
+    padding: 15px;
+    text-align: center;
+    background: #586870;
+    margin-block-end: 5px;
+}
+
+nav ul li:hover {
+    background: #3c494f;
+}
+
+nav ul li:active {
+    background: #3c494f;
+}
+
+nav ul li a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+section {
+    margin-inline-start: 25px;
+}
+
+.mainArea {
+    width: 900px;
+}
+
+.sidebar {
+    width: 250px;
+}
+
+.background{
+    width: 100%;
+    background: #1d1d1d;
+    border: 1px #363636 solid;
+    box-shadow: 0px 0px 10px 3px #0d0b0c;
+}
+
+section.mainArea div h1 {
+    background: url(img/belka.jpg);
+    background-size: 100% 100%;
+    /*background: linear-gradient(to top, #586870, #758a95);*/
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin-block-end: 15px;
+}
+section.sidebar div h1 {
+    background: url(img/belka_sid.jpg);
+    background-size: 100% 100%;
+    /*background: linear-gradient(to top, #586870, #758a95);*/
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin-block-end: 15px;
+}
+
+#tabela {
+    width: 100%;
+    background: #1d1d1d;
+    border: 1px #363636 solid;
+    box-shadow: 0px 0px 10px 3px #0d0b0c;
+
+ }
+
+ tbody {display: inline;}
+
+ #tabela tr {
+    background-color: #212121;
+    line-height: 30px;
+    margin: 5px auto;
+    display: block;
+ }
+ #tabela tr:first-child {
+    text-transform: uppercase;
+ }
+
+ #tabela td {
+    display: inline-block;
+    text-align: center;
+ }
+
+ .status {
+    width: 15%;
+ }
+
+ .tryb {
+    width: 25%;
+ }
+
+ .gt {
+    width: 40%;
+ }
+
+ .polacz {
+    width: 15%;
+ }
+
+ .online {
+    background-color: #8BC34A;
+    font-size: 10px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(139, 195, 74, 0.15);
+    padding: 3px 5px;
+    border-radius: 5px;
+ }
+
+ td.inny_wyglad {
+    background-color: orange;
+    vertical-align: top;
+    font-weight: bold;
+    color: darkred;
+ }
